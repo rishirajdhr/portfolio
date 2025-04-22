@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function UnderConstructionLandingPage() {
     return (
-        <div>
+        <div className="grid h-screen w-screen place-content-center">
             <main>
                 <Image
                     src="/under-construction.jpg"
