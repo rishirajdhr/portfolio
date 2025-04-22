@@ -12,7 +12,7 @@ export default function Home() {
                         height={600}
                     />
                 ) : (
-                    <h1 className="text-2xl">Rishiraj's Portfolio</h1>
+                    <h1 className="text-2xl">Rishiraj&apos;s Portfolio</h1>
                 )}
             </main>
         </div>
