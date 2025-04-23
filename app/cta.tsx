@@ -3,7 +3,7 @@ interface CallToActionProps extends React.ComponentPropsWithoutRef<"a"> {
     children?: React.ReactNode;
 }
 
-const colorVariants: Record<CallToActionProps["variant"], String> = {
+const colorVariants: Record<CallToActionProps["variant"], string> = {
     primary: "bg-gray-950 hover:bg-gray-800 text-gray-50",
     secondary: "bg-gray-100 hover:bg-gray-200 text-gray-950",
 };
