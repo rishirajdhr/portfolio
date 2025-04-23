@@ -4,7 +4,7 @@ import { NavBar } from "./navbar";
 export function Hero() {
     return (
         <div className="flex h-screen w-screen flex-col">
-            <header className="flex flex-row items-center justify-center bg-gray-50 py-4">
+            <header className="hidden flex-row items-center justify-center bg-gray-50 py-4 sm:flex">
                 <NavBar />
             </header>
             <section className="grid flex-auto place-content-center bg-gray-50">
